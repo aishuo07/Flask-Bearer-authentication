@@ -6,8 +6,6 @@ from werkzeug.security import generate_password_hash,check_password_hash
 import jwt
 import datetime
 from functools import wraps
-from oauthlib.oauth2.rfc6749 import tokens
-from oauthlib.oauth2 import Server
 
 
 application = app = Flask(__name__)
